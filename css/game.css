@@ -1,0 +1,34 @@
+.background    { background-image: url(forest.jpg);
+                 background-size:820px 600px;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url(bungee.png);
+                 background-size: 30px 30px}
+.wall          { background: rgb(204,230,255);   }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url(nen.png);
+          background-size: 15px 15px;}
+.fruit { background-image: url(rock.png);
+        background-size: 12px 12px;}
+.hazard { background-image: url(hisoka.png);
+          background-size: 10px 10px;}
+.player { background-image: url(gonpixel.png);
+          background-size: 25px 35px;}
+.pass { background-image: url(license.png);
+        background-size: 15px 15px;}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
